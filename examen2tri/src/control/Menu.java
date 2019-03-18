@@ -14,7 +14,7 @@ public class Menu {
 	private AgenciaViatges av = new AgenciaViatges();
 	
 	public void start() {
-		System.out.println("Programa per Tòfol Martínez Lorenzo.");
+		System.out.println("Programa per Tòfol Martínez Lorenzo. Modificat per Miquel Alburquerque");
 		creacioDades();
 		int opt=1;
 		while(opt!=4) {
