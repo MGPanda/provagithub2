@@ -29,7 +29,7 @@ public class Menu {
 		int opt=1;
 		while(opt!=4) {
 			pintarMenu();
-			System.out.println("Selecciona una opció gilipollas:");
+			System.out.println("Selecciona una opció gilipollas (perdón, me puse modo diablo):");
 			opt=Entrada.entero();
 			control(opt);
 		}
@@ -38,7 +38,7 @@ public class Menu {
 	private void pintarMenu() {
 		System.out.println("---------------------------");
 		System.out.println("(1) Crear un Paquet.");
-		System.out.println("(2) Crear una reserva.");
+		System.out.println("(2) Crear un meme.");
 		System.out.println("(3) Pintar una reserva.");
 		System.out.println("(4) Sortir.");
 		System.out.println("---------------------------");
