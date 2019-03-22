@@ -19,7 +19,7 @@ public class Menu {
 		int opt=1;
 		while(opt!=4) {
 			pintarMenu();
-			System.out.println("Selecciona una opció gilipollas:");
+			System.out.println("Selecciona una opció gilipollas (perdón, me puse modo diablo):");
 			opt=Entrada.entero();
 			control(opt);
 		}
