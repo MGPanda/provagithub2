@@ -14,7 +14,11 @@ public class Menu {
 	private AgenciaViatges av = new AgenciaViatges();
 	
 	public void start() {
+<<<<<<< HEAD
+		System.out.println("Programa per Tòfol Martínez Lorenzo i Cepeda Calvo.");
+=======
 		System.out.println("Programa per el culo Tòfol Martínez Lorenzo.");
+>>>>>>> master
 		creacioDades();
 		int opt=1;
 		while(opt!=4) {
@@ -28,7 +32,7 @@ public class Menu {
 	private void pintarMenu() {
 		System.out.println("---------------------------");
 		System.out.println("(1) Crear un Paquet.");
-		System.out.println("(2) Crear una reserva.");
+		System.out.println("(2) Crear un meme.");
 		System.out.println("(3) Pintar una reserva.");
 		System.out.println("(4) Sortir.");
 		System.out.println("---------------------------");
