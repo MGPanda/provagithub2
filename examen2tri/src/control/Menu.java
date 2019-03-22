@@ -14,12 +14,16 @@ public class Menu {
 	private AgenciaViatges av = new AgenciaViatges();
 	
 	public void start() {
+<<<<<<< HEAD
 		System.out.println("Programa per Tòfol Martínez Lorenzo i Cepeda Calvo.");
+=======
+		System.out.println("Programa per el culo Tòfol Martínez Lorenzo.");
+>>>>>>> master
 		creacioDades();
 		int opt=1;
 		while(opt!=4) {
 			pintarMenu();
-			System.out.println("Selecciona una opció:");
+			System.out.println("Selecciona una opció gilipollas:");
 			opt=Entrada.entero();
 			control(opt);
 		}
