@@ -20,6 +20,7 @@ public class Menu {
 		try {
 			BufferedWriter meme = new BufferedWriter(new FileWriter("jajasi.txt"));
 			meme.write("jaja si soy yo");
+			meme.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
