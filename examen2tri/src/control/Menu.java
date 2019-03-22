@@ -1,5 +1,8 @@
 package control;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -14,11 +17,15 @@ public class Menu {
 	private AgenciaViatges av = new AgenciaViatges();
 	
 	public void start() {
-<<<<<<< HEAD
-		System.out.println("Programa per Tòfol Martínez Lorenzo i Cepeda Calvo.");
-=======
-		System.out.println("Programa per el culo Tòfol Martínez Lorenzo.");
->>>>>>> master
+		try {
+			BufferedWriter meme = new BufferedWriter(new FileWriter("jajasi.txt"));
+			meme.write("jaja si soy yo");
+			meme.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("Programa per Tòfol Martínez Lorenzo.");
 		creacioDades();
 		int opt=1;
 		while(opt!=4) {
